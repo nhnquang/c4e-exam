@@ -1,0 +1,112 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #151b32;
+}
+
+a {
+  text-decoration: none !important;
+  color: #151b32 !important;
+}
+
+.nav-link {
+  padding: 10px !important;
+  margin: auto 1rem;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: #849fff;
+  color: white !important;
+}
+
+input {
+  border: none !important;
+}
+
+input:focus {
+  outline: none;
+}
+
+#nav-bar {
+  margin-top: 30px;
+}
+
+#search-container {
+  border: 2px solid #bfc8e5;
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+#manifying-glass {
+  margin: auto 7px;
+}
+
+#users-panel {
+  margin-top: 50px;
+}
+
+.user-profile {
+  padding: 24px;
+  background-color: #fbfcff;
+  min-height: 220px;
+  width: 32%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.user-profile:hover {
+  border: 1px solid #bfc8e5;
+  filter: drop-shadow(0 0 0.75rem #bfc8e5);
+}
+
+.user-pic {
+  margin-right: 20px;
+}
+
+.hashtag {
+  font-size: 0.8rem;
+  color: #516fd4;
+  padding: 2px 10px;
+  border: 1px solid #bfc8e6;
+  border-radius: 20px;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.location {
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1230px) {
+  .user-profile {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #nav-row {
+    flex-direction: column !important;
+  }
+
+  #search-container {
+    margin-bottom: 10px;
+  }
+
+  #nav-bar {
+    align-items: center !important;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .user-profile {
+    width: 100%;
+  }
+}
